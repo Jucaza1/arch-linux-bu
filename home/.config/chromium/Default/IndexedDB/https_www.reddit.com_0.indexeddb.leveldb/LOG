@@ -1,0 +1,21 @@
+2024/08/02-09:25:29.832 21d0 Recovering log #15
+2024/08/02-09:25:29.832 21d0 Level-0 table #18: started
+2024/08/02-09:25:29.836 21d0 Level-0 table #18: 849 bytes OK
+2024/08/02-09:25:29.847 21d0 Delete type=2 #5
+2024/08/02-09:25:29.847 21d0 Delete type=2 #8
+2024/08/02-09:25:29.847 21d0 Delete type=2 #11
+2024/08/02-09:25:29.847 21d0 Delete type=2 #14
+2024/08/02-09:25:29.847 21d0 Delete type=0 #15
+2024/08/02-09:25:29.847 21d0 Delete type=3 #13
+2024/08/02-09:26:01.763 21d1 Level-0 table #21: started
+2024/08/02-09:26:01.766 21d1 Level-0 table #21: 872 bytes OK
+2024/08/02-09:26:01.774 21d1 Delete type=0 #19
+2024/08/02-09:26:01.775 21d1 Manual compaction at level-0 from (begin) .. (end); will stop at '\x00\x01\x01\x02\x01\x15\x00v\x002\x00_\x00e\x00v\x00e\x00n\x00t\x00_\x00b\x00o\x00i\x00l\x00e\x00r\x00_\x00p\x00l\x00a\x00t\x00e' @ 194 : 1
+2024/08/02-09:26:01.775 21d1 Compacting 2@0 + 1@1 files
+2024/08/02-09:26:01.778 21d1 Generated table #22@0: 23 keys, 807 bytes
+2024/08/02-09:26:01.779 21d1 Compacted 2@0 + 1@1 files => 807 bytes
+2024/08/02-09:26:01.786 21d1 compacted to: files[ 0 1 0 0 0 0 0 ]
+2024/08/02-09:26:01.786 21d1 Delete type=2 #16
+2024/08/02-09:26:01.786 21d1 Delete type=2 #18
+2024/08/02-09:26:01.786 21d1 Delete type=2 #21
+2024/08/02-09:26:01.787 21d1 Manual compaction at level-0 from '\x00\x01\x01\x02\x01\x15\x00v\x002\x00_\x00e\x00v\x00e\x00n\x00t\x00_\x00b\x00o\x00i\x00l\x00e\x00r\x00_\x00p\x00l\x00a\x00t\x00e' @ 194 : 1 .. (end); will stop at (end)

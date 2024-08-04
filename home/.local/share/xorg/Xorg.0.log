@@ -1,0 +1,631 @@
+[    13.361] (--) Log file renamed from "/home/user-j/.local/share/xorg/Xorg.pid-903.log" to "/home/user-j/.local/share/xorg/Xorg.0.log"
+[    13.361] 
+X.Org X Server 1.21.1.13
+X Protocol Version 11, Revision 0
+[    13.361] Current Operating System: Linux arch-1 6.9.10-arch1-1 #1 SMP PREEMPT_DYNAMIC Thu, 18 Jul 2024 18:06:13 +0000 x86_64
+[    13.361] Kernel command line: BOOT_IMAGE=/vmlinuz-linux root=UUID=4886fceb-59a4-4c3a-a699-8cd832caddfb rw rootflags=subvol=@ zswap.enabled=0 rootfstype=btrfs loglevel=3 quiet
+[    13.361]  
+[    13.361] Current version of pixman: 0.43.4
+[    13.361] 	Before reporting problems, check http://wiki.x.org
+	to make sure that you have the latest version.
+[    13.361] Markers: (--) probed, (**) from config file, (==) default setting,
+	(++) from command line, (!!) notice, (II) informational,
+	(WW) warning, (EE) error, (NI) not implemented, (??) unknown.
+[    13.361] (==) Log file: "/home/user-j/.local/share/xorg/Xorg.0.log", Time: Fri Jul 19 19:28:41 2024
+[    13.362] (==) Using config directory: "/etc/X11/xorg.conf.d"
+[    13.362] (==) Using system config directory "/usr/share/X11/xorg.conf.d"
+[    13.363] (==) No Layout section.  Using the first Screen section.
+[    13.363] (==) No screen section available. Using defaults.
+[    13.363] (**) |-->Screen "Default Screen Section" (0)
+[    13.363] (**) |   |-->Monitor "<default monitor>"
+[    13.363] (==) No monitor specified for screen "Default Screen Section".
+	Using a default monitor configuration.
+[    13.363] (**) Allowing byte-swapped clients
+[    13.363] (==) Automatically adding devices
+[    13.363] (==) Automatically enabling devices
+[    13.363] (==) Automatically adding GPU devices
+[    13.363] (==) Automatically binding GPU devices
+[    13.363] (==) Max clients allowed: 256, resource mask: 0x1fffff
+[    13.364] (WW) The directory "/usr/share/fonts/misc" does not exist.
+[    13.364] 	Entry deleted from font path.
+[    13.364] (WW) `fonts.dir' not found (or not valid) in "/usr/share/fonts/TTF".
+[    13.364] 	Entry deleted from font path.
+[    13.364] 	(Run 'mkfontdir' on "/usr/share/fonts/TTF").
+[    13.364] (WW) The directory "/usr/share/fonts/OTF" does not exist.
+[    13.364] 	Entry deleted from font path.
+[    13.364] (WW) The directory "/usr/share/fonts/Type1" does not exist.
+[    13.364] 	Entry deleted from font path.
+[    13.364] (WW) The directory "/usr/share/fonts/100dpi" does not exist.
+[    13.364] 	Entry deleted from font path.
+[    13.364] (WW) The directory "/usr/share/fonts/75dpi" does not exist.
+[    13.364] 	Entry deleted from font path.
+[    13.364] (==) FontPath set to:
+	
+[    13.364] (==) ModulePath set to "/usr/lib/xorg/modules"
+[    13.364] (II) The server relies on udev to provide the list of input devices.
+	If no devices become available, reconfigure udev or disable AutoAddDevices.
+[    13.364] (II) Module ABI versions:
+[    13.364] 	X.Org ANSI C Emulation: 0.4
+[    13.364] 	X.Org Video Driver: 25.2
+[    13.364] 	X.Org XInput driver : 24.4
+[    13.364] 	X.Org Server Extension : 10.0
+[    13.365] (++) using VT number 2
+
+[    13.368] (II) systemd-logind: took control of session /org/freedesktop/login1/session/_33
+[    13.370] (II) xfree86: Adding drm device (/dev/dri/card0)
+[    13.370] (II) Platform probe for /sys/devices/pci0000:00/0000:00:02.0/drm/card0
+[    13.372] (II) systemd-logind: got fd for /dev/dri/card0 226:0 fd 14 paused 0
+[    13.376] (--) PCI:*(0@0:2:0) 15ad:0405:15ad:0405 rev 0, Mem @ 0xe0000000/16777216, 0xf0000000/2097152, I/O @ 0x0000d010/16, BIOS @ 0x????????/131072
+[    13.376] (WW) Open ACPI failed (/var/run/acpid.socket) (No such file or directory)
+[    13.376] (II) LoadModule: "glx"
+[    13.378] (II) Loading /usr/lib/xorg/modules/extensions/libglx.so
+[    13.383] (II) Module glx: vendor="X.Org Foundation"
+[    13.384] 	compiled for 1.21.1.13, module version = 1.0.0
+[    13.384] 	ABI class: X.Org Server Extension, version 10.0
+[    13.384] (==) Matched vmware as autoconfigured driver 0
+[    13.384] (==) Matched modesetting as autoconfigured driver 1
+[    13.384] (==) Matched fbdev as autoconfigured driver 2
+[    13.384] (==) Matched vesa as autoconfigured driver 3
+[    13.384] (==) Assigned the driver to the xf86ConfigLayout
+[    13.384] (II) LoadModule: "vmware"
+[    13.384] (WW) Warning, couldn't open module vmware
+[    13.384] (EE) Failed to load module "vmware" (module does not exist, 0)
+[    13.384] (II) LoadModule: "modesetting"
+[    13.384] (II) Loading /usr/lib/xorg/modules/drivers/modesetting_drv.so
+[    13.388] (II) Module modesetting: vendor="X.Org Foundation"
+[    13.388] 	compiled for 1.21.1.13, module version = 1.21.1
+[    13.388] 	Module class: X.Org Video Driver
+[    13.388] 	ABI class: X.Org Video Driver, version 25.2
+[    13.388] (II) LoadModule: "fbdev"
+[    13.388] (WW) Warning, couldn't open module fbdev
+[    13.388] (EE) Failed to load module "fbdev" (module does not exist, 0)
+[    13.389] (II) LoadModule: "vesa"
+[    13.389] (WW) Warning, couldn't open module vesa
+[    13.389] (EE) Failed to load module "vesa" (module does not exist, 0)
+[    13.389] (II) modesetting: Driver for Modesetting Kernel Drivers: kms
+[    13.389] (II) modeset(0): using drv /dev/dri/card0
+[    13.389] (WW) VGA arbiter: cannot open kernel arbiter, no multi-card support
+[    13.389] (II) modeset(0): Creating default Display subsection in Screen section
+	"Default Screen Section" for depth/fbbpp 24/32
+[    13.389] (==) modeset(0): Depth 24, (==) framebuffer bpp 32
+[    13.389] (==) modeset(0): RGB weight 888
+[    13.389] (==) modeset(0): Default visual is TrueColor
+[    13.389] (II) Loading sub module "glamoregl"
+[    13.389] (II) LoadModule: "glamoregl"
+[    13.389] (II) Loading /usr/lib/xorg/modules/libglamoregl.so
+[    13.394] (II) Module glamoregl: vendor="X.Org Foundation"
+[    13.394] 	compiled for 1.21.1.13, module version = 1.0.1
+[    13.394] 	ABI class: X.Org ANSI C Emulation, version 0.4
+[    13.448] (II) modeset(0): Refusing to try glamor on llvmpipe
+[    13.451] (II) modeset(0): glamor initialization failed
+[    13.451] (II) modeset(0): ShadowFB: preferred NO, enabled NO
+[    13.451] (II) modeset(0): Output Virtual-1 has no monitor section
+[    13.451] (II) modeset(0): Output Virtual-2 has no monitor section
+[    13.451] (II) modeset(0): Output Virtual-3 has no monitor section
+[    13.451] (II) modeset(0): Output Virtual-4 has no monitor section
+[    13.451] (II) modeset(0): Output Virtual-5 has no monitor section
+[    13.451] (II) modeset(0): Output Virtual-6 has no monitor section
+[    13.451] (II) modeset(0): Output Virtual-7 has no monitor section
+[    13.451] (II) modeset(0): Output Virtual-8 has no monitor section
+[    13.452] (II) modeset(0): EDID for output Virtual-1
+[    13.452] (II) modeset(0): Printing probed modes for output Virtual-1
+[    13.452] (II) modeset(0): Modeline "1280x800"x60.0   81.51  1280 1330 1380 1430  800 850 900 950 -hsync +vsync (57.0 kHz eP)
+[    13.452] (II) modeset(0): Modeline "2560x1600"x60.0  348.50  2560 2752 3032 3504  1600 1603 1609 1658 -hsync +vsync (99.5 kHz e)
+[    13.452] (II) modeset(0): Modeline "2560x1600"x60.0  268.50  2560 2608 2640 2720  1600 1603 1609 1646 +hsync -vsync (98.7 kHz e)
+[    13.452] (II) modeset(0): Modeline "1920x1440"x60.0  234.00  1920 2048 2256 2600  1440 1441 1444 1500 -hsync +vsync (90.0 kHz e)
+[    13.452] (II) modeset(0): Modeline "1856x1392"x60.0  218.25  1856 1952 2176 2528  1392 1393 1396 1439 -hsync +vsync (86.3 kHz e)
+[    13.452] (II) modeset(0): Modeline "1792x1344"x60.0  204.75  1792 1920 2120 2448  1344 1345 1348 1394 -hsync +vsync (83.6 kHz e)
+[    13.452] (II) modeset(0): Modeline "2048x1152"x60.0  162.00  2048 2074 2154 2250  1152 1153 1156 1200 +hsync +vsync (72.0 kHz e)
+[    13.452] (II) modeset(0): Modeline "1920x1200"x59.9  193.25  1920 2056 2256 2592  1200 1203 1209 1245 -hsync +vsync (74.6 kHz e)
+[    13.452] (II) modeset(0): Modeline "1920x1200"x60.0  154.00  1920 1968 2000 2080  1200 1203 1209 1235 +hsync -vsync (74.0 kHz e)
+[    13.453] (II) modeset(0): Modeline "1920x1080"x60.0  148.50  1920 2008 2052 2200  1080 1084 1089 1125 -hsync -vsync (67.5 kHz e)
+[    13.453] (II) modeset(0): Modeline "1600x1200"x60.0  162.00  1600 1664 1856 2160  1200 1201 1204 1250 +hsync +vsync (75.0 kHz e)
+[    13.453] (II) modeset(0): Modeline "1680x1050"x60.0  146.25  1680 1784 1960 2240  1050 1053 1059 1089 -hsync +vsync (65.3 kHz e)
+[    13.453] (II) modeset(0): Modeline "1680x1050"x59.9  119.00  1680 1728 1760 1840  1050 1053 1059 1080 +hsync -vsync (64.7 kHz e)
+[    13.453] (II) modeset(0): Modeline "1400x1050"x60.0  121.75  1400 1488 1632 1864  1050 1053 1057 1089 -hsync +vsync (65.3 kHz e)
+[    13.453] (II) modeset(0): Modeline "1400x1050"x59.9  101.00  1400 1448 1480 1560  1050 1053 1057 1080 +hsync -vsync (64.7 kHz e)
+[    13.453] (II) modeset(0): Modeline "1600x900"x60.0  108.00  1600 1624 1704 1800  900 901 904 1000 +hsync +vsync (60.0 kHz e)
+[    13.453] (II) modeset(0): Modeline "1280x1024"x60.0  108.00  1280 1328 1440 1688  1024 1025 1028 1066 +hsync +vsync (64.0 kHz e)
+[    13.453] (II) modeset(0): Modeline "1440x900"x59.9  106.50  1440 1520 1672 1904  900 903 909 934 -hsync +vsync (55.9 kHz e)
+[    13.453] (II) modeset(0): Modeline "1440x900"x59.9   88.75  1440 1488 1520 1600  900 903 909 926 +hsync -vsync (55.5 kHz e)
+[    13.453] (II) modeset(0): Modeline "1280x960"x60.0  108.00  1280 1376 1488 1800  960 961 964 1000 +hsync +vsync (60.0 kHz e)
+[    13.453] (II) modeset(0): Modeline "1366x768"x59.8   85.50  1366 1436 1579 1792  768 771 774 798 +hsync +vsync (47.7 kHz e)
+[    13.453] (II) modeset(0): Modeline "1366x768"x60.0   72.00  1366 1380 1436 1500  768 769 772 800 +hsync +vsync (48.0 kHz e)
+[    13.453] (II) modeset(0): Modeline "1360x768"x60.0   85.50  1360 1424 1536 1792  768 771 777 795 +hsync +vsync (47.7 kHz e)
+[    13.453] (II) modeset(0): Modeline "1280x800"x59.8   83.50  1280 1352 1480 1680  800 803 809 831 -hsync +vsync (49.7 kHz e)
+[    13.453] (II) modeset(0): Modeline "1280x800"x59.9   71.00  1280 1328 1360 1440  800 803 809 823 +hsync -vsync (49.3 kHz e)
+[    13.453] (II) modeset(0): Modeline "1280x768"x59.9   79.50  1280 1344 1472 1664  768 771 778 798 -hsync +vsync (47.8 kHz e)
+[    13.453] (II) modeset(0): Modeline "1280x768"x60.0   68.25  1280 1328 1360 1440  768 771 778 790 +hsync -vsync (47.4 kHz e)
+[    13.453] (II) modeset(0): Modeline "1280x720"x60.0   74.25  1280 1390 1430 1650  720 725 730 750 +hsync +vsync (45.0 kHz e)
+[    13.453] (II) modeset(0): Modeline "1024x768"x60.0   65.00  1024 1048 1184 1344  768 771 777 806 -hsync -vsync (48.4 kHz e)
+[    13.453] (II) modeset(0): Modeline "800x600"x60.3   40.00  800 840 968 1056  600 601 605 628 +hsync +vsync (37.9 kHz e)
+[    13.453] (II) modeset(0): Modeline "800x600"x56.2   36.00  800 824 896 1024  600 601 603 625 +hsync +vsync (35.2 kHz e)
+[    13.453] (II) modeset(0): Modeline "848x480"x60.0   33.75  848 864 976 1088  480 486 494 517 +hsync +vsync (31.0 kHz e)
+[    13.453] (II) modeset(0): Modeline "640x480"x59.9   25.18  640 656 752 800  480 490 492 525 -hsync -vsync (31.5 kHz e)
+[    13.453] (II) modeset(0): EDID for output Virtual-2
+[    13.453] (II) modeset(0): EDID for output Virtual-3
+[    13.453] (II) modeset(0): EDID for output Virtual-4
+[    13.453] (II) modeset(0): EDID for output Virtual-5
+[    13.453] (II) modeset(0): EDID for output Virtual-6
+[    13.453] (II) modeset(0): EDID for output Virtual-7
+[    13.453] (II) modeset(0): EDID for output Virtual-8
+[    13.453] (II) modeset(0): Output Virtual-1 connected
+[    13.453] (II) modeset(0): Output Virtual-2 disconnected
+[    13.453] (II) modeset(0): Output Virtual-3 disconnected
+[    13.453] (II) modeset(0): Output Virtual-4 disconnected
+[    13.453] (II) modeset(0): Output Virtual-5 disconnected
+[    13.453] (II) modeset(0): Output Virtual-6 disconnected
+[    13.453] (II) modeset(0): Output Virtual-7 disconnected
+[    13.453] (II) modeset(0): Output Virtual-8 disconnected
+[    13.453] (II) modeset(0): Using exact sizes for initial modes
+[    13.453] (II) modeset(0): Output Virtual-1 using initial mode 1280x800 +0+0
+[    13.453] (==) modeset(0): Using gamma correction (1.0, 1.0, 1.0)
+[    13.453] (==) modeset(0): DPI set to (96, 96)
+[    13.453] (II) Loading sub module "fb"
+[    13.453] (II) LoadModule: "fb"
+[    13.453] (II) Module "fb" already built-in
+[    13.453] (==) modeset(0): Backing store enabled
+[    13.453] (==) modeset(0): Silken mouse enabled
+[    13.453] (II) modeset(0): Initializing kms color map for depth 24, 8 bpc.
+[    13.453] (==) modeset(0): DPMS enabled
+[    13.454] (II) Initializing extension Generic Event Extension
+[    13.454] (II) Initializing extension SHAPE
+[    13.454] (II) Initializing extension MIT-SHM
+[    13.455] (II) Initializing extension XInputExtension
+[    13.455] (II) Initializing extension XTEST
+[    13.455] (II) Initializing extension BIG-REQUESTS
+[    13.455] (II) Initializing extension SYNC
+[    13.455] (II) Initializing extension XKEYBOARD
+[    13.455] (II) Initializing extension XC-MISC
+[    13.455] (II) Initializing extension SECURITY
+[    13.455] (II) Initializing extension XFIXES
+[    13.455] (II) Initializing extension RENDER
+[    13.455] (II) Initializing extension RANDR
+[    13.455] (II) Initializing extension COMPOSITE
+[    13.455] (II) Initializing extension DAMAGE
+[    13.456] (II) Initializing extension MIT-SCREEN-SAVER
+[    13.456] (II) Initializing extension DOUBLE-BUFFER
+[    13.456] (II) Initializing extension RECORD
+[    13.456] (II) Initializing extension DPMS
+[    13.456] (II) Initializing extension Present
+[    13.456] (II) Initializing extension DRI3
+[    13.456] (II) Initializing extension X-Resource
+[    13.456] (II) Initializing extension XVideo
+[    13.456] (II) Initializing extension XVideo-MotionCompensation
+[    13.456] (II) Initializing extension GLX
+[    13.456] (II) AIGLX: Screen 0 is not DRI2 capable
+[    13.461] (II) IGLX: Loaded and initialized swrast
+[    13.461] (II) GLX: Initialized DRISWRAST GL provider for screen 0
+[    13.461] (II) Initializing extension XFree86-VidModeExtension
+[    13.461] (II) Initializing extension XFree86-DGA
+[    13.461] (II) Initializing extension XFree86-DRI
+[    13.461] (II) Initializing extension DRI2
+[    13.462] (II) modeset(0): Damage tracking initialized
+[    13.462] (II) modeset(0): Setting screen physical size to 338 x 211
+[    13.488] (II) config/udev: Adding input device Power Button (/dev/input/event0)
+[    13.488] (**) Power Button: Applying InputClass "libinput keyboard catchall"
+[    13.488] (**) Power Button: Applying InputClass "system-keyboard"
+[    13.488] (II) LoadModule: "libinput"
+[    13.488] (II) Loading /usr/lib/xorg/modules/input/libinput_drv.so
+[    13.490] (II) Module libinput: vendor="X.Org Foundation"
+[    13.490] 	compiled for 1.21.1.13, module version = 1.4.0
+[    13.490] 	Module class: X.Org XInput Driver
+[    13.490] 	ABI class: X.Org XInput driver, version 24.4
+[    13.490] (II) Using input driver 'libinput' for 'Power Button'
+[    13.492] (II) systemd-logind: got fd for /dev/input/event0 13:64 fd 22 paused 0
+[    13.492] (**) Power Button: always reports core events
+[    13.492] (**) Option "Device" "/dev/input/event0"
+[    13.493] (II) event0  - Power Button: is tagged by udev as: Keyboard
+[    13.493] (II) event0  - Power Button: device is a keyboard
+[    13.493] (II) event0  - Power Button: device removed
+[    13.493] (**) Option "config_info" "udev:/sys/devices/LNXSYSTM:00/LNXPWRBN:00/input/input0/event0"
+[    13.493] (II) XINPUT: Adding extended input device "Power Button" (type: KEYBOARD, id 6)
+[    13.493] (**) Option "xkb_model" "pc105+inet"
+[    13.493] (**) Option "xkb_layout" "us"
+[    13.493] (**) Option "xkb_options" "terminate:ctrl_alt_bksp"
+[    13.508] (II) event0  - Power Button: is tagged by udev as: Keyboard
+[    13.508] (II) event0  - Power Button: device is a keyboard
+[    13.508] (II) config/udev: Adding input device Sleep Button (/dev/input/event1)
+[    13.508] (**) Sleep Button: Applying InputClass "libinput keyboard catchall"
+[    13.508] (**) Sleep Button: Applying InputClass "system-keyboard"
+[    13.508] (II) Using input driver 'libinput' for 'Sleep Button'
+[    13.509] (II) systemd-logind: got fd for /dev/input/event1 13:65 fd 25 paused 0
+[    13.509] (**) Sleep Button: always reports core events
+[    13.509] (**) Option "Device" "/dev/input/event1"
+[    13.510] (II) event1  - Sleep Button: is tagged by udev as: Keyboard
+[    13.510] (II) event1  - Sleep Button: device is a keyboard
+[    13.510] (II) event1  - Sleep Button: device removed
+[    13.510] (**) Option "config_info" "udev:/sys/devices/LNXSYSTM:00/LNXSLPBN:00/input/input1/event1"
+[    13.510] (II) XINPUT: Adding extended input device "Sleep Button" (type: KEYBOARD, id 7)
+[    13.510] (**) Option "xkb_model" "pc105+inet"
+[    13.510] (**) Option "xkb_layout" "us"
+[    13.510] (**) Option "xkb_options" "terminate:ctrl_alt_bksp"
+[    13.511] (II) event1  - Sleep Button: is tagged by udev as: Keyboard
+[    13.511] (II) event1  - Sleep Button: device is a keyboard
+[    13.511] (II) config/udev: Adding input device Video Bus (/dev/input/event4)
+[    13.511] (**) Video Bus: Applying InputClass "libinput keyboard catchall"
+[    13.511] (**) Video Bus: Applying InputClass "system-keyboard"
+[    13.511] (II) Using input driver 'libinput' for 'Video Bus'
+[    13.512] (II) systemd-logind: got fd for /dev/input/event4 13:68 fd 26 paused 0
+[    13.512] (**) Video Bus: always reports core events
+[    13.512] (**) Option "Device" "/dev/input/event4"
+[    13.512] (II) event4  - Video Bus: is tagged by udev as: Keyboard
+[    13.512] (II) event4  - Video Bus: device is a keyboard
+[    13.512] (II) event4  - Video Bus: device removed
+[    13.512] (**) Option "config_info" "udev:/sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A03:00/LNXVIDEO:00/input/input5/event4"
+[    13.512] (II) XINPUT: Adding extended input device "Video Bus" (type: KEYBOARD, id 8)
+[    13.512] (**) Option "xkb_model" "pc105+inet"
+[    13.512] (**) Option "xkb_layout" "us"
+[    13.512] (**) Option "xkb_options" "terminate:ctrl_alt_bksp"
+[    13.513] (II) event4  - Video Bus: is tagged by udev as: Keyboard
+[    13.513] (II) event4  - Video Bus: device is a keyboard
+[    13.513] (II) config/udev: Adding input device VirtualBox mouse integration (/dev/input/event5)
+[    13.513] (**) VirtualBox mouse integration: Applying InputClass "libinput pointer catchall"
+[    13.514] (II) Using input driver 'libinput' for 'VirtualBox mouse integration'
+[    13.515] (II) systemd-logind: got fd for /dev/input/event5 13:69 fd 27 paused 0
+[    13.515] (**) VirtualBox mouse integration: always reports core events
+[    13.515] (**) Option "Device" "/dev/input/event5"
+[    13.516] (II) event5  - VirtualBox mouse integration: is tagged by udev as: Mouse
+[    13.516] (II) event5  - VirtualBox mouse integration: device is a pointer
+[    13.516] (II) event5  - VirtualBox mouse integration: device removed
+[    13.516] (**) Option "config_info" "udev:/sys/devices/pci0000:00/0000:00:04.0/input/input6/event5"
+[    13.516] (II) XINPUT: Adding extended input device "VirtualBox mouse integration" (type: MOUSE, id 9)
+[    13.517] (**) Option "AccelerationScheme" "none"
+[    13.517] (**) VirtualBox mouse integration: (accel) selected scheme none/0
+[    13.517] (**) VirtualBox mouse integration: (accel) acceleration factor: 2.000
+[    13.517] (**) VirtualBox mouse integration: (accel) acceleration threshold: 4
+[    13.517] (II) event5  - VirtualBox mouse integration: is tagged by udev as: Mouse
+[    13.518] (II) event5  - VirtualBox mouse integration: device is a pointer
+[    13.518] (II) config/udev: Adding input device VirtualBox mouse integration (/dev/input/js1)
+[    13.518] (II) No input driver specified, ignoring this device.
+[    13.518] (II) This device may have been added with another device file.
+[    13.519] (II) config/udev: Adding input device VirtualBox mouse integration (/dev/input/mouse1)
+[    13.519] (II) No input driver specified, ignoring this device.
+[    13.519] (II) This device may have been added with another device file.
+[    13.520] (II) config/udev: Adding input device VirtualBox USB Tablet (/dev/input/event3)
+[    13.520] (**) VirtualBox USB Tablet: Applying InputClass "libinput pointer catchall"
+[    13.520] (II) Using input driver 'libinput' for 'VirtualBox USB Tablet'
+[    13.616] (II) systemd-logind: got fd for /dev/input/event3 13:67 fd 28 paused 0
+[    13.617] (**) VirtualBox USB Tablet: always reports core events
+[    13.617] (**) Option "Device" "/dev/input/event3"
+[    13.618] (II) event3  - VirtualBox USB Tablet: is tagged by udev as: Mouse
+[    13.618] (II) event3  - VirtualBox USB Tablet: device is a pointer
+[    13.618] (II) event3  - VirtualBox USB Tablet: device removed
+[    13.618] (**) Option "config_info" "udev:/sys/devices/pci0000:00/0000:00:06.0/usb1/1-1/1-1:1.0/0003:80EE:0021.0001/input/input4/event3"
+[    13.618] (II) XINPUT: Adding extended input device "VirtualBox USB Tablet" (type: MOUSE, id 10)
+[    13.618] (**) Option "AccelerationScheme" "none"
+[    13.618] (**) VirtualBox USB Tablet: (accel) selected scheme none/0
+[    13.618] (**) VirtualBox USB Tablet: (accel) acceleration factor: 2.000
+[    13.618] (**) VirtualBox USB Tablet: (accel) acceleration threshold: 4
+[    13.620] (II) event3  - VirtualBox USB Tablet: is tagged by udev as: Mouse
+[    13.620] (II) event3  - VirtualBox USB Tablet: device is a pointer
+[    13.621] (II) config/udev: Adding input device VirtualBox USB Tablet (/dev/input/js0)
+[    13.621] (II) No input driver specified, ignoring this device.
+[    13.621] (II) This device may have been added with another device file.
+[    13.621] (II) config/udev: Adding input device VirtualBox USB Tablet (/dev/input/mouse0)
+[    13.621] (II) No input driver specified, ignoring this device.
+[    13.621] (II) This device may have been added with another device file.
+[    13.622] (II) config/udev: Adding input device AT Translated Set 2 keyboard (/dev/input/event2)
+[    13.622] (**) AT Translated Set 2 keyboard: Applying InputClass "libinput keyboard catchall"
+[    13.622] (**) AT Translated Set 2 keyboard: Applying InputClass "system-keyboard"
+[    13.622] (II) Using input driver 'libinput' for 'AT Translated Set 2 keyboard'
+[    13.623] (II) systemd-logind: got fd for /dev/input/event2 13:66 fd 29 paused 0
+[    13.623] (**) AT Translated Set 2 keyboard: always reports core events
+[    13.623] (**) Option "Device" "/dev/input/event2"
+[    13.625] (II) event2  - AT Translated Set 2 keyboard: is tagged by udev as: Keyboard
+[    13.625] (II) event2  - AT Translated Set 2 keyboard: device is a keyboard
+[    13.625] (II) event2  - AT Translated Set 2 keyboard: device removed
+[    13.625] (**) Option "config_info" "udev:/sys/devices/platform/i8042/serio0/input/input2/event2"
+[    13.625] (II) XINPUT: Adding extended input device "AT Translated Set 2 keyboard" (type: KEYBOARD, id 11)
+[    13.625] (**) Option "xkb_model" "pc105+inet"
+[    13.625] (**) Option "xkb_layout" "us"
+[    13.625] (**) Option "xkb_options" "terminate:ctrl_alt_bksp"
+[    13.626] (II) event2  - AT Translated Set 2 keyboard: is tagged by udev as: Keyboard
+[    13.626] (II) event2  - AT Translated Set 2 keyboard: device is a keyboard
+[    13.628] (II) config/udev: Adding input device ImExPS/2 Generic Explorer Mouse (/dev/input/event7)
+[    13.628] (**) ImExPS/2 Generic Explorer Mouse: Applying InputClass "libinput pointer catchall"
+[    13.628] (II) Using input driver 'libinput' for 'ImExPS/2 Generic Explorer Mouse'
+[    13.629] (II) systemd-logind: got fd for /dev/input/event7 13:71 fd 30 paused 0
+[    13.629] (**) ImExPS/2 Generic Explorer Mouse: always reports core events
+[    13.629] (**) Option "Device" "/dev/input/event7"
+[    13.630] (II) event7  - ImExPS/2 Generic Explorer Mouse: is tagged by udev as: Mouse
+[    13.630] (II) event7  - ImExPS/2 Generic Explorer Mouse: device is a pointer
+[    13.630] (II) event7  - ImExPS/2 Generic Explorer Mouse: device removed
+[    13.630] (II) libinput: ImExPS/2 Generic Explorer Mouse: Step value 0 was provided, libinput Fallback acceleration function is used.
+[    13.630] (II) libinput: ImExPS/2 Generic Explorer Mouse: Step value 0 was provided, libinput Fallback acceleration function is used.
+[    13.630] (II) libinput: ImExPS/2 Generic Explorer Mouse: Step value 0 was provided, libinput Fallback acceleration function is used.
+[    13.630] (**) Option "config_info" "udev:/sys/devices/platform/i8042/serio1/input/input8/event7"
+[    13.630] (II) XINPUT: Adding extended input device "ImExPS/2 Generic Explorer Mouse" (type: MOUSE, id 12)
+[    13.630] (**) Option "AccelerationScheme" "none"
+[    13.630] (**) ImExPS/2 Generic Explorer Mouse: (accel) selected scheme none/0
+[    13.630] (**) ImExPS/2 Generic Explorer Mouse: (accel) acceleration factor: 2.000
+[    13.630] (**) ImExPS/2 Generic Explorer Mouse: (accel) acceleration threshold: 4
+[    13.631] (II) event7  - ImExPS/2 Generic Explorer Mouse: is tagged by udev as: Mouse
+[    13.631] (II) event7  - ImExPS/2 Generic Explorer Mouse: device is a pointer
+[    13.632] (II) config/udev: Adding input device ImExPS/2 Generic Explorer Mouse (/dev/input/mouse2)
+[    13.632] (II) No input driver specified, ignoring this device.
+[    13.632] (II) This device may have been added with another device file.
+[    13.632] (II) config/udev: Adding input device PC Speaker (/dev/input/event6)
+[    13.632] (II) No input driver specified, ignoring this device.
+[    13.632] (II) This device may have been added with another device file.
+[  2589.274] (EE) event5  - VirtualBox mouse integration: client bug: event processing lagging behind by 35ms, your system is too slow
+[  2589.337] (II) event5  - VirtualBox mouse integration: SYN_DROPPED event - some input events have been lost.
+[  3041.825] (EE) event5  - VirtualBox mouse integration: client bug: event processing lagging behind by 42ms, your system is too slow
+[  3270.938] (EE) event5  - VirtualBox mouse integration: client bug: event processing lagging behind by 21ms, your system is too slow
+[  3486.389] (EE) event5  - VirtualBox mouse integration: client bug: event processing lagging behind by 36ms, your system is too slow
+[  3494.786] (EE) event5  - VirtualBox mouse integration: client bug: event processing lagging behind by 32ms, your system is too slow
+[  3494.786] (EE) event5  - VirtualBox mouse integration: WARNING: log rate limit exceeded (5 msgs per 60min). Discarding future messages.
+[  3784.407] (II) event5  - VirtualBox mouse integration: SYN_DROPPED event - some input events have been lost.
+[  4266.619] (II) event5  - VirtualBox mouse integration: SYN_DROPPED event - some input events have been lost.
+[  4268.523] (II) event5  - VirtualBox mouse integration: SYN_DROPPED event - some input events have been lost.
+[  4268.865] (II) event5  - VirtualBox mouse integration: SYN_DROPPED event - some input events have been lost.
+[  4269.179] (II) event5  - VirtualBox mouse integration: SYN_DROPPED event - some input events have been lost.
+[  4270.051] (II) event5  - VirtualBox mouse integration: SYN_DROPPED event - some input events have been lost.
+[  4270.051] (II) event5  - VirtualBox mouse integration: WARNING: log rate limit exceeded (5 msgs per 30s). Discarding future messages.
+[  4355.677] (II) event5  - VirtualBox mouse integration: SYN_DROPPED event - some input events have been lost.
+[ 14266.763] (II) event5  - VirtualBox mouse integration: SYN_DROPPED event - some input events have been lost.
+[ 14267.188] (II) event5  - VirtualBox mouse integration: SYN_DROPPED event - some input events have been lost.
+[ 14276.769] (II) event3  - VirtualBox USB Tablet: device removed
+[ 14276.862] (II) config/udev: removing device VirtualBox USB Tablet
+[ 14276.863] (**) Option "fd" "28"
+[ 14276.874] (II) UnloadModule: "libinput"
+[ 14276.874] (II) systemd-logind: releasing fd for 13:67
+[ 14276.876] (EE) systemd-logind: failed to release device: Device not taken
+[ 14278.264] (II) config/udev: Adding input device VirtualBox USB Tablet (/dev/input/js0)
+[ 14278.264] (II) No input driver specified, ignoring this device.
+[ 14278.264] (II) This device may have been added with another device file.
+[ 14278.268] (II) config/udev: Adding input device VirtualBox USB Tablet (/dev/input/mouse0)
+[ 14278.268] (II) No input driver specified, ignoring this device.
+[ 14278.268] (II) This device may have been added with another device file.
+[ 14278.359] (II) config/udev: Adding input device VirtualBox USB Tablet (/dev/input/event3)
+[ 14278.360] (**) VirtualBox USB Tablet: Applying InputClass "libinput pointer catchall"
+[ 14278.360] (II) Using input driver 'libinput' for 'VirtualBox USB Tablet'
+[ 14278.416] (II) systemd-logind: got fd for /dev/input/event3 13:67 fd 34 paused 0
+[ 14278.416] (**) VirtualBox USB Tablet: always reports core events
+[ 14278.416] (**) Option "Device" "/dev/input/event3"
+[ 14278.420] (II) event3  - VirtualBox USB Tablet: is tagged by udev as: Mouse
+[ 14278.420] (II) event3  - VirtualBox USB Tablet: device is a pointer
+[ 14278.421] (II) event3  - VirtualBox USB Tablet: device removed
+[ 14278.421] (**) Option "config_info" "udev:/sys/devices/pci0000:00/0000:00:06.0/usb1/1-1/1-1:1.0/0003:80EE:0021.0002/input/input9/event3"
+[ 14278.421] (II) XINPUT: Adding extended input device "VirtualBox USB Tablet" (type: MOUSE, id 10)
+[ 14278.422] (**) Option "AccelerationScheme" "none"
+[ 14278.422] (**) VirtualBox USB Tablet: (accel) selected scheme none/0
+[ 14278.422] (**) VirtualBox USB Tablet: (accel) acceleration factor: 2.000
+[ 14278.422] (**) VirtualBox USB Tablet: (accel) acceleration threshold: 4
+[ 14278.428] (II) event3  - VirtualBox USB Tablet: is tagged by udev as: Mouse
+[ 14278.428] (II) event3  - VirtualBox USB Tablet: device is a pointer
+[ 14281.767] (II) event5  - VirtualBox mouse integration: SYN_DROPPED event - some input events have been lost.
+[ 14282.296] (II) event5  - VirtualBox mouse integration: SYN_DROPPED event - some input events have been lost.
+[ 14283.018] (II) event5  - VirtualBox mouse integration: SYN_DROPPED event - some input events have been lost.
+[ 14283.018] (II) event5  - VirtualBox mouse integration: WARNING: log rate limit exceeded (5 msgs per 30s). Discarding future messages.
+[ 14283.528] (EE) event5  - VirtualBox mouse integration: client bug: event processing lagging behind by 25ms, your system is too slow
+[ 14284.086] (EE) event5  - VirtualBox mouse integration: client bug: event processing lagging behind by 31ms, your system is too slow
+[ 14285.854] (EE) event5  - VirtualBox mouse integration: client bug: event processing lagging behind by 59ms, your system is too slow
+[ 14286.540] (EE) event5  - VirtualBox mouse integration: client bug: event processing lagging behind by 78ms, your system is too slow
+[ 14286.751] (EE) event5  - VirtualBox mouse integration: client bug: event processing lagging behind by 49ms, your system is too slow
+[ 14286.751] (EE) event5  - VirtualBox mouse integration: WARNING: log rate limit exceeded (5 msgs per 60min). Discarding future messages.
+[ 14297.949] (II) event5  - VirtualBox mouse integration: SYN_DROPPED event - some input events have been lost.
+[ 14298.233] (II) event5  - VirtualBox mouse integration: SYN_DROPPED event - some input events have been lost.
+[ 14303.030] (II) event5  - VirtualBox mouse integration: SYN_DROPPED event - some input events have been lost.
+[ 14303.760] (II) event5  - VirtualBox mouse integration: SYN_DROPPED event - some input events have been lost.
+[ 14416.344] (II) event5  - VirtualBox mouse integration: SYN_DROPPED event - some input events have been lost.
+[ 14419.105] (II) event5  - VirtualBox mouse integration: SYN_DROPPED event - some input events have been lost.
+[ 14419.605] (II) event5  - VirtualBox mouse integration: SYN_DROPPED event - some input events have been lost.
+[ 14419.791] (II) event5  - VirtualBox mouse integration: SYN_DROPPED event - some input events have been lost.
+[ 14421.694] (II) event5  - VirtualBox mouse integration: SYN_DROPPED event - some input events have been lost.
+[ 14421.694] (II) event5  - VirtualBox mouse integration: WARNING: log rate limit exceeded (5 msgs per 30s). Discarding future messages.
+[ 14467.818] (II) event5  - VirtualBox mouse integration: SYN_DROPPED event - some input events have been lost.
+[ 14468.528] (II) event5  - VirtualBox mouse integration: SYN_DROPPED event - some input events have been lost.
+[ 14469.214] (II) event5  - VirtualBox mouse integration: SYN_DROPPED event - some input events have been lost.
+[ 14474.793] (II) event5  - VirtualBox mouse integration: SYN_DROPPED event - some input events have been lost.
+[ 14475.167] (II) event5  - VirtualBox mouse integration: SYN_DROPPED event - some input events have been lost.
+[ 14475.167] (II) event5  - VirtualBox mouse integration: WARNING: log rate limit exceeded (5 msgs per 30s). Discarding future messages.
+[ 14502.111] (II) event5  - VirtualBox mouse integration: SYN_DROPPED event - some input events have been lost.
+[ 14507.985] (II) event5  - VirtualBox mouse integration: SYN_DROPPED event - some input events have been lost.
+[ 14511.576] (II) event5  - VirtualBox mouse integration: SYN_DROPPED event - some input events have been lost.
+[ 14550.109] (II) event5  - VirtualBox mouse integration: SYN_DROPPED event - some input events have been lost.
+[ 14551.149] (II) event5  - VirtualBox mouse integration: SYN_DROPPED event - some input events have been lost.
+[ 14552.300] (II) event5  - VirtualBox mouse integration: SYN_DROPPED event - some input events have been lost.
+[ 14552.386] (II) event5  - VirtualBox mouse integration: SYN_DROPPED event - some input events have been lost.
+[ 14554.995] (II) event3  - VirtualBox USB Tablet: device removed
+[ 14555.121] (II) config/udev: removing device VirtualBox USB Tablet
+[ 14555.122] (**) Option "fd" "34"
+[ 14555.137] (II) UnloadModule: "libinput"
+[ 14555.137] (II) systemd-logind: releasing fd for 13:67
+[ 14556.666] (II) config/udev: Adding input device VirtualBox USB Tablet (/dev/input/mouse0)
+[ 14556.666] (II) No input driver specified, ignoring this device.
+[ 14556.666] (II) This device may have been added with another device file.
+[ 14556.671] (II) config/udev: Adding input device VirtualBox USB Tablet (/dev/input/js0)
+[ 14556.671] (II) No input driver specified, ignoring this device.
+[ 14556.671] (II) This device may have been added with another device file.
+[ 14556.759] (II) config/udev: Adding input device VirtualBox USB Tablet (/dev/input/event3)
+[ 14556.759] (**) VirtualBox USB Tablet: Applying InputClass "libinput pointer catchall"
+[ 14556.759] (II) Using input driver 'libinput' for 'VirtualBox USB Tablet'
+[ 14556.817] (II) systemd-logind: got fd for /dev/input/event3 13:67 fd 65 paused 0
+[ 14556.817] (**) VirtualBox USB Tablet: always reports core events
+[ 14556.817] (**) Option "Device" "/dev/input/event3"
+[ 14556.818] (II) event3  - VirtualBox USB Tablet: is tagged by udev as: Mouse
+[ 14556.819] (II) event3  - VirtualBox USB Tablet: device is a pointer
+[ 14556.819] (II) event3  - VirtualBox USB Tablet: device removed
+[ 14556.820] (**) Option "config_info" "udev:/sys/devices/pci0000:00/0000:00:06.0/usb1/1-1/1-1:1.0/0003:80EE:0021.0003/input/input10/event3"
+[ 14556.820] (II) XINPUT: Adding extended input device "VirtualBox USB Tablet" (type: MOUSE, id 10)
+[ 14556.822] (**) Option "AccelerationScheme" "none"
+[ 14556.823] (**) VirtualBox USB Tablet: (accel) selected scheme none/0
+[ 14556.823] (**) VirtualBox USB Tablet: (accel) acceleration factor: 2.000
+[ 14556.823] (**) VirtualBox USB Tablet: (accel) acceleration threshold: 4
+[ 14556.825] (II) event3  - VirtualBox USB Tablet: is tagged by udev as: Mouse
+[ 14556.825] (II) event3  - VirtualBox USB Tablet: device is a pointer
+[ 14565.014] (II) event5  - VirtualBox mouse integration: SYN_DROPPED event - some input events have been lost.
+[ 14565.015] (II) event5  - VirtualBox mouse integration: WARNING: log rate limit exceeded (5 msgs per 30s). Discarding future messages.
+[ 14630.935] (II) modeset(0): Allocate new frame buffer 2048x1152 stride
+[ 17217.627] (II) event3  - VirtualBox USB Tablet: device removed
+[ 17217.777] (II) config/udev: removing device VirtualBox USB Tablet
+[ 17217.782] (**) Option "fd" "65"
+[ 17217.805] (II) UnloadModule: "libinput"
+[ 17217.805] (II) systemd-logind: releasing fd for 13:67
+[ 17217.815] (EE) systemd-logind: failed to release device: Device not taken
+[ 17219.158] (II) config/udev: Adding input device VirtualBox USB Tablet (/dev/input/mouse0)
+[ 17219.159] (II) No input driver specified, ignoring this device.
+[ 17219.159] (II) This device may have been added with another device file.
+[ 17219.160] (II) config/udev: Adding input device VirtualBox USB Tablet (/dev/input/js0)
+[ 17219.160] (II) No input driver specified, ignoring this device.
+[ 17219.162] (II) This device may have been added with another device file.
+[ 17219.264] (II) config/udev: Adding input device VirtualBox USB Tablet (/dev/input/event3)
+[ 17219.264] (**) VirtualBox USB Tablet: Applying InputClass "libinput pointer catchall"
+[ 17219.264] (II) Using input driver 'libinput' for 'VirtualBox USB Tablet'
+[ 17219.325] (II) systemd-logind: got fd for /dev/input/event3 13:67 fd 48 paused 0
+[ 17219.325] (**) VirtualBox USB Tablet: always reports core events
+[ 17219.325] (**) Option "Device" "/dev/input/event3"
+[ 17219.327] (II) event3  - VirtualBox USB Tablet: is tagged by udev as: Mouse
+[ 17219.328] (II) event3  - VirtualBox USB Tablet: device is a pointer
+[ 17219.332] (II) event3  - VirtualBox USB Tablet: device removed
+[ 17219.332] (**) Option "config_info" "udev:/sys/devices/pci0000:00/0000:00:06.0/usb1/1-1/1-1:1.0/0003:80EE:0021.0004/input/input11/event3"
+[ 17219.332] (II) XINPUT: Adding extended input device "VirtualBox USB Tablet" (type: MOUSE, id 10)
+[ 17219.332] (**) Option "AccelerationScheme" "none"
+[ 17219.332] (**) VirtualBox USB Tablet: (accel) selected scheme none/0
+[ 17219.333] (**) VirtualBox USB Tablet: (accel) acceleration factor: 2.000
+[ 17219.333] (**) VirtualBox USB Tablet: (accel) acceleration threshold: 4
+[ 17219.336] (II) event3  - VirtualBox USB Tablet: is tagged by udev as: Mouse
+[ 17219.337] (II) event3  - VirtualBox USB Tablet: device is a pointer
+[ 17989.158] (EE) event5  - VirtualBox mouse integration: client bug: event processing lagging behind by 21ms, your system is too slow
+[ 19977.165] (EE) event7  - ImExPS/2 Generic Explorer Mouse: client bug: event processing lagging behind by 68ms, your system is too slow
+[ 19995.914] (EE) event2  - AT Translated Set 2 keyboard: client bug: event processing lagging behind by 45ms, your system is too slow
+[ 20022.483] (EE) event2  - AT Translated Set 2 keyboard: client bug: event processing lagging behind by 42ms, your system is too slow
+[ 20057.637] (EE) event2  - AT Translated Set 2 keyboard: client bug: event processing lagging behind by 22ms, your system is too slow
+[ 20100.631] (EE) event2  - AT Translated Set 2 keyboard: client bug: event processing lagging behind by 62ms, your system is too slow
+[ 20120.605] (EE) event2  - AT Translated Set 2 keyboard: client bug: event processing lagging behind by 32ms, your system is too slow
+[ 20120.610] (EE) event2  - AT Translated Set 2 keyboard: WARNING: log rate limit exceeded (5 msgs per 60min). Discarding future messages.
+[ 20232.694] (EE) event5  - VirtualBox mouse integration: client bug: event processing lagging behind by 39ms, your system is too slow
+[ 20234.222] (EE) client bug: timer event7 debounce: scheduled expiry is in the past (-82ms), your system is too slow
+[ 20234.222] (EE) client bug: timer event7 debounce: scheduled expiry is in the past (-66ms), your system is too slow
+[ 20234.222] (EE) client bug: timer event7 debounce short: scheduled expiry is in the past (-79ms), your system is too slow
+[ 20246.652] (II) event5  - VirtualBox mouse integration: SYN_DROPPED event - some input events have been lost.
+[ 20247.637] (EE) event5  - VirtualBox mouse integration: client bug: event processing lagging behind by 27ms, your system is too slow
+[ 20247.792] (II) event5  - VirtualBox mouse integration: SYN_DROPPED event - some input events have been lost.
+[ 20261.210] (II) event5  - VirtualBox mouse integration: SYN_DROPPED event - some input events have been lost.
+[ 20262.592] (II) event5  - VirtualBox mouse integration: SYN_DROPPED event - some input events have been lost.
+[ 20262.811] (EE) event5  - VirtualBox mouse integration: client bug: event processing lagging behind by 92ms, your system is too slow
+[ 20262.958] (EE) event5  - VirtualBox mouse integration: client bug: event processing lagging behind by 67ms, your system is too slow
+[ 20262.958] (EE) event5  - VirtualBox mouse integration: WARNING: log rate limit exceeded (5 msgs per 60min). Discarding future messages.
+[ 20265.424] (II) event5  - VirtualBox mouse integration: SYN_DROPPED event - some input events have been lost.
+[ 20265.443] (II) event5  - VirtualBox mouse integration: WARNING: log rate limit exceeded (5 msgs per 30s). Discarding future messages.
+[ 20276.836] (EE) client bug: timer event7 debounce: scheduled expiry is in the past (-37ms), your system is too slow
+[ 20280.662] (EE) client bug: timer event7 debounce: scheduled expiry is in the past (-106ms), your system is too slow
+[ 20280.662] (EE) WARNING: log rate limit exceeded (5 msgs per 3600000ms). Discarding future messages.
+[ 20349.086] (II) event5  - VirtualBox mouse integration: SYN_DROPPED event - some input events have been lost.
+[ 20358.652] (EE) event7  - ImExPS/2 Generic Explorer Mouse: client bug: event processing lagging behind by 36ms, your system is too slow
+[ 20364.283] (II) event5  - VirtualBox mouse integration: SYN_DROPPED event - some input events have been lost.
+[ 20365.621] (II) event5  - VirtualBox mouse integration: SYN_DROPPED event - some input events have been lost.
+[ 20369.785] (EE) event7  - ImExPS/2 Generic Explorer Mouse: client bug: event processing lagging behind by 26ms, your system is too slow
+[ 20371.836] (II) event5  - VirtualBox mouse integration: SYN_DROPPED event - some input events have been lost.
+[ 20375.184] (II) event5  - VirtualBox mouse integration: SYN_DROPPED event - some input events have been lost.
+[ 20375.184] (II) event5  - VirtualBox mouse integration: WARNING: log rate limit exceeded (5 msgs per 30s). Discarding future messages.
+[ 21605.560] (II) event3  - VirtualBox USB Tablet: device removed
+[ 21605.694] (II) config/udev: removing device VirtualBox USB Tablet
+[ 21605.695] (**) Option "fd" "48"
+[ 21605.707] (II) UnloadModule: "libinput"
+[ 21605.707] (II) systemd-logind: releasing fd for 13:67
+[ 21605.710] (EE) systemd-logind: failed to release device: Device not taken
+[ 21607.096] (II) config/udev: Adding input device VirtualBox USB Tablet (/dev/input/js0)
+[ 21607.096] (II) No input driver specified, ignoring this device.
+[ 21607.096] (II) This device may have been added with another device file.
+[ 21607.101] (II) config/udev: Adding input device VirtualBox USB Tablet (/dev/input/mouse0)
+[ 21607.101] (II) No input driver specified, ignoring this device.
+[ 21607.101] (II) This device may have been added with another device file.
+[ 21607.210] (II) config/udev: Adding input device VirtualBox USB Tablet (/dev/input/event3)
+[ 21607.210] (**) VirtualBox USB Tablet: Applying InputClass "libinput pointer catchall"
+[ 21607.210] (II) Using input driver 'libinput' for 'VirtualBox USB Tablet'
+[ 21607.269] (II) systemd-logind: got fd for /dev/input/event3 13:67 fd 42 paused 0
+[ 21607.269] (**) VirtualBox USB Tablet: always reports core events
+[ 21607.269] (**) Option "Device" "/dev/input/event3"
+[ 21607.271] (II) event3  - VirtualBox USB Tablet: is tagged by udev as: Mouse
+[ 21607.271] (II) event3  - VirtualBox USB Tablet: device is a pointer
+[ 21607.271] (II) event3  - VirtualBox USB Tablet: device removed
+[ 21607.271] (**) Option "config_info" "udev:/sys/devices/pci0000:00/0000:00:06.0/usb1/1-1/1-1:1.0/0003:80EE:0021.0005/input/input12/event3"
+[ 21607.271] (II) XINPUT: Adding extended input device "VirtualBox USB Tablet" (type: MOUSE, id 10)
+[ 21607.275] (**) Option "AccelerationScheme" "none"
+[ 21607.275] (**) VirtualBox USB Tablet: (accel) selected scheme none/0
+[ 21607.275] (**) VirtualBox USB Tablet: (accel) acceleration factor: 2.000
+[ 21607.275] (**) VirtualBox USB Tablet: (accel) acceleration threshold: 4
+[ 21607.276] (II) event3  - VirtualBox USB Tablet: is tagged by udev as: Mouse
+[ 21607.276] (II) event3  - VirtualBox USB Tablet: device is a pointer
+[ 23637.150] (EE) event5  - VirtualBox mouse integration: client bug: event processing lagging behind by 34ms, your system is too slow
+[ 23645.543] (EE) event5  - VirtualBox mouse integration: client bug: event processing lagging behind by 58ms, your system is too slow
+[ 23678.581] (EE) event5  - VirtualBox mouse integration: client bug: event processing lagging behind by 39ms, your system is too slow
+[ 27360.017] (II) event5  - VirtualBox mouse integration: SYN_DROPPED event - some input events have been lost.
+[ 27673.737] (EE) event2  - AT Translated Set 2 keyboard: client bug: event processing lagging behind by 44ms, your system is too slow
+[ 28539.546] (II) event5  - VirtualBox mouse integration: SYN_DROPPED event - some input events have been lost.
+[ 36868.352] (II) event3  - VirtualBox USB Tablet: device removed
+[ 36868.545] (II) config/udev: removing device VirtualBox USB Tablet
+[ 36868.546] (**) Option "fd" "42"
+[ 36868.552] (II) UnloadModule: "libinput"
+[ 36868.552] (II) systemd-logind: releasing fd for 13:67
+[ 36869.904] (II) config/udev: Adding input device VirtualBox USB Tablet (/dev/input/js0)
+[ 36869.904] (II) No input driver specified, ignoring this device.
+[ 36869.904] (II) This device may have been added with another device file.
+[ 36869.908] (II) config/udev: Adding input device VirtualBox USB Tablet (/dev/input/mouse0)
+[ 36869.908] (II) No input driver specified, ignoring this device.
+[ 36869.908] (II) This device may have been added with another device file.
+[ 36870.034] (II) config/udev: Adding input device VirtualBox USB Tablet (/dev/input/event3)
+[ 36870.034] (**) VirtualBox USB Tablet: Applying InputClass "libinput pointer catchall"
+[ 36870.034] (II) Using input driver 'libinput' for 'VirtualBox USB Tablet'
+[ 36870.092] (II) systemd-logind: got fd for /dev/input/event3 13:67 fd 47 paused 0
+[ 36870.093] (**) VirtualBox USB Tablet: always reports core events
+[ 36870.093] (**) Option "Device" "/dev/input/event3"
+[ 36870.095] (II) event3  - VirtualBox USB Tablet: is tagged by udev as: Mouse
+[ 36870.096] (II) event3  - VirtualBox USB Tablet: device is a pointer
+[ 36870.096] (II) event3  - VirtualBox USB Tablet: device removed
+[ 36870.096] (**) Option "config_info" "udev:/sys/devices/pci0000:00/0000:00:06.0/usb1/1-1/1-1:1.0/0003:80EE:0021.0006/input/input13/event3"
+[ 36870.096] (II) XINPUT: Adding extended input device "VirtualBox USB Tablet" (type: MOUSE, id 10)
+[ 36870.097] (**) Option "AccelerationScheme" "none"
+[ 36870.097] (**) VirtualBox USB Tablet: (accel) selected scheme none/0
+[ 36870.097] (**) VirtualBox USB Tablet: (accel) acceleration factor: 2.000
+[ 36870.097] (**) VirtualBox USB Tablet: (accel) acceleration threshold: 4
+[ 36870.098] (II) event3  - VirtualBox USB Tablet: is tagged by udev as: Mouse
+[ 36870.098] (II) event3  - VirtualBox USB Tablet: device is a pointer
+[ 43986.256] (EE) event5  - VirtualBox mouse integration: client bug: event processing lagging behind by 25ms, your system is too slow
+[ 47531.400] (II) event3  - VirtualBox USB Tablet: device removed
+[ 47531.515] (II) config/udev: removing device VirtualBox USB Tablet
+[ 47531.517] (**) Option "fd" "47"
+[ 47531.531] (II) UnloadModule: "libinput"
+[ 47531.531] (II) systemd-logind: releasing fd for 13:67
+[ 47531.534] (EE) systemd-logind: failed to release device: Device not taken
+[ 47532.968] (II) config/udev: Adding input device VirtualBox USB Tablet (/dev/input/mouse0)
+[ 47532.969] (II) No input driver specified, ignoring this device.
+[ 47532.969] (II) This device may have been added with another device file.
+[ 47532.972] (II) config/udev: Adding input device VirtualBox USB Tablet (/dev/input/js0)
+[ 47532.972] (II) No input driver specified, ignoring this device.
+[ 47532.972] (II) This device may have been added with another device file.
+[ 47533.112] (II) config/udev: Adding input device VirtualBox USB Tablet (/dev/input/event3)
+[ 47533.112] (**) VirtualBox USB Tablet: Applying InputClass "libinput pointer catchall"
+[ 47533.112] (II) Using input driver 'libinput' for 'VirtualBox USB Tablet'
+[ 47533.170] (II) systemd-logind: got fd for /dev/input/event3 13:67 fd 47 paused 0
+[ 47533.170] (**) VirtualBox USB Tablet: always reports core events
+[ 47533.170] (**) Option "Device" "/dev/input/event3"
+[ 47533.176] (II) event3  - VirtualBox USB Tablet: is tagged by udev as: Mouse
+[ 47533.176] (II) event3  - VirtualBox USB Tablet: device is a pointer
+[ 47533.176] (II) event3  - VirtualBox USB Tablet: device removed
+[ 47533.176] (**) Option "config_info" "udev:/sys/devices/pci0000:00/0000:00:06.0/usb1/1-1/1-1:1.0/0003:80EE:0021.0007/input/input14/event3"
+[ 47533.177] (II) XINPUT: Adding extended input device "VirtualBox USB Tablet" (type: MOUSE, id 10)
+[ 47533.177] (**) Option "AccelerationScheme" "none"
+[ 47533.177] (**) VirtualBox USB Tablet: (accel) selected scheme none/0
+[ 47533.177] (**) VirtualBox USB Tablet: (accel) acceleration factor: 2.000
+[ 47533.177] (**) VirtualBox USB Tablet: (accel) acceleration threshold: 4
+[ 47533.179] (II) event3  - VirtualBox USB Tablet: is tagged by udev as: Mouse
+[ 47533.179] (II) event3  - VirtualBox USB Tablet: device is a pointer
+[ 53060.885] (EE) event2  - AT Translated Set 2 keyboard: client bug: event processing lagging behind by 38ms, your system is too slow
+[ 54329.092] (EE) event5  - VirtualBox mouse integration: client bug: event processing lagging behind by 57ms, your system is too slow
+[ 54863.308] (EE) event2  - AT Translated Set 2 keyboard: client bug: event processing lagging behind by 33ms, your system is too slow
+[ 57878.148] (II) event5  - VirtualBox mouse integration: SYN_DROPPED event - some input events have been lost.
+[ 58341.957] (EE) event2  - AT Translated Set 2 keyboard: client bug: event processing lagging behind by 42ms, your system is too slow
+[ 59687.403] (II) event3  - VirtualBox USB Tablet: device removed
+[ 59687.956] (II) config/udev: removing device VirtualBox USB Tablet
+[ 59687.956] (**) Option "fd" "47"
+[ 59687.958] (II) UnloadModule: "libinput"
+[ 59687.958] (II) systemd-logind: releasing fd for 13:67
+[ 59687.961] (EE) systemd-logind: failed to release device: Device not taken
+[ 62941.456] (EE) client bug: timer event7 debounce short: scheduled expiry is in the past (-30ms), your system is too slow
+[ 65678.757] (II) event5  - VirtualBox mouse integration: SYN_DROPPED event - some input events have been lost.
+[ 67806.116] (EE) event5  - VirtualBox mouse integration: client bug: event processing lagging behind by 59ms, your system is too slow
+[ 68705.065] (EE) event5  - VirtualBox mouse integration: client bug: event processing lagging behind by 22ms, your system is too slow
+[ 69364.772] (EE) event5  - VirtualBox mouse integration: client bug: event processing lagging behind by 30ms, your system is too slow

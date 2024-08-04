@@ -1,0 +1,114 @@
+!_TAG_FILE_ENCODING	utf-8	//
+FixCursorHold.nvim-this-plugin-is-not-needed-after-https-github-com-neovim-neovim-pull-20198	FixCursorHold.nvim.md	/# **❗ This plugin is not needed after https:\/\/github.com\/neovim\/neovim\/pull\/20198 ❗**
+brightburn.vim-brightburn-vim	brightburn.vim.md	/# brightburn.vim
+cellular-automaton.nvim-but-why	cellular-automaton.nvim.md	/## But.. why?
+cellular-automaton.nvim-cellular-automaton-nvim	cellular-automaton.nvim.md	/# cellular-automaton.nvim
+cellular-automaton.nvim-game-of-life	cellular-automaton.nvim.md	/### Game of Life
+cellular-automaton.nvim-implementing-your-own-cellular-automaton-logic	cellular-automaton.nvim.md	/## Implementing your own cellular automaton logic
+cellular-automaton.nvim-inspiration-and-references	cellular-automaton.nvim.md	/## Inspiration and references
+cellular-automaton.nvim-installation	cellular-automaton.nvim.md	/## Installation
+cellular-automaton.nvim-known-issues	cellular-automaton.nvim.md	/## Known issues
+cellular-automaton.nvim-make-it-rain	cellular-automaton.nvim.md	/### Make it Rain
+cellular-automaton.nvim-requirements	cellular-automaton.nvim.md	/## Requirements
+cellular-automaton.nvim-supported-animations	cellular-automaton.nvim.md	/## Supported animations
+cellular-automaton.nvim-usage	cellular-automaton.nvim.md	/## Usage
+cellular-automaton.nvim-what-is-cellular-automata	cellular-automaton.nvim.md	/## What is cellular automata
+cloak.nvim-cloak-nvim	cloak.nvim.md	/# Cloak.nvim
+cloak.nvim-configuration	cloak.nvim.md	/## Configuration
+cloak.nvim-demo	cloak.nvim.md	/## Demo
+cloak.nvim-usage	cloak.nvim.md	/## Usage
+cmp-buffer-all-buffers	cmp-buffer.md	/##### All buffers
+cmp-buffer-cmp-buffer	cmp-buffer.md	/# cmp-buffer
+cmp-buffer-configuration	cmp-buffer.md	/## Configuration
+cmp-buffer-get-bufnrs-type-fun-number	cmp-buffer.md	/### get_bufnrs (type: fun(): number\[\])
+cmp-buffer-indexing-and-how-to-optimize-it	cmp-buffer.md	/## Indexing and how to optimize it
+cmp-buffer-indexing-batch-size-type-number	cmp-buffer.md	/### indexing_batch_size (type: number)
+cmp-buffer-indexing-interval-type-number	cmp-buffer.md	/### indexing_interval (type: number)
+cmp-buffer-keyword-length-type-number	cmp-buffer.md	/### keyword_length (type: number)
+cmp-buffer-keyword-pattern-type-string	cmp-buffer.md	/### keyword_pattern (type: string)
+cmp-buffer-locality-bonus-comparator-distance-based-sorting	cmp-buffer.md	/## Locality bonus comparator (distance-based sorting)
+cmp-buffer-max-indexed-line-length-type-number	cmp-buffer.md	/### max_indexed_line_length (type: number)
+cmp-buffer-performance-on-large-text-files	cmp-buffer.md	/### Performance on large text files
+cmp-buffer-setup	cmp-buffer.md	/## Setup
+cmp-buffer-visible-buffers	cmp-buffer.md	/##### Visible buffers
+cmp-cmdline-cmp-cmdline	cmp-cmdline.md	/# cmp-cmdline
+cmp-cmdline-ignore-cmds-string	cmp-cmdline.md	/### ignore_cmds: string\[\]
+cmp-cmdline-option	cmp-cmdline.md	/# Option
+cmp-cmdline-setup	cmp-cmdline.md	/# Setup
+cmp-cmdline-treat-trailing-slash-boolean	cmp-cmdline.md	/### treat_trailing_slash: boolean
+cmp-path-cmp-path	cmp-path.md	/# cmp-path
+cmp-path-configuration	cmp-path.md	/## Configuration
+cmp-path-get-cwd-type-function	cmp-path.md	/### get_cwd (type: function)
+cmp-path-label-trailing-slash-type-boolean	cmp-path.md	/### label_trailing_slash (type: boolean)
+cmp-path-setup	cmp-path.md	/# Setup
+cmp-path-trailing-slash-type-boolean	cmp-path.md	/### trailing_slash (type: boolean)
+cmp_luasnip-cmp-luasnip	cmp_luasnip.md	/# cmp_luasnip
+friendly-snippets-add-snippets-from-a-framework-to-a-filetype	friendly-snippets.md	/## Add snippets from a framework to a filetype.
+friendly-snippets-credits	friendly-snippets.md	/## Credits
+friendly-snippets-excluding-snippets	friendly-snippets.md	/## Excluding snippets
+friendly-snippets-friendly-snippets	friendly-snippets.md	/# Friendly Snippets
+friendly-snippets-html	friendly-snippets.md	/### HTML
+friendly-snippets-install	friendly-snippets.md	/## Install
+friendly-snippets-js	friendly-snippets.md	/### JS
+friendly-snippets-showcase	friendly-snippets.md	/## Showcase
+friendly-snippets-thanks-to-all-contributors	friendly-snippets.md	/## Thanks to all contributors
+friendly-snippets-todo	friendly-snippets.md	/## TODO
+friendly-snippets-usage	friendly-snippets.md	/## Usage
+friendly-snippets-with-coc-nvim	friendly-snippets.md	/### With coc.nvim
+friendly-snippets-with-lazy-nvim	friendly-snippets.md	/### With Lazy.nvim
+friendly-snippets-with-packer	friendly-snippets.md	/### With Packer
+friendly-snippets-with-vim-plug	friendly-snippets.md	/### With vim-plug
+harpoon-api	harpoon.md	/## ⇁ API
+harpoon-basic-setup	harpoon.md	/### Basic Setup
+harpoon-config	harpoon.md	/### Config
+harpoon-contribution	harpoon.md	/## ⇁ Contribution
+harpoon-extend	harpoon.md	/### Extend
+harpoon-extends	harpoon.md	/## Extends
+harpoon-getting-started	harpoon.md	/## ⇁ Getting Started
+harpoon-getting-you-where-you-want-with-the-fewest-keystrokes	harpoon.md	/##### Getting you where you want with the fewest keystrokes.
+harpoon-harpoon	harpoon.md	/# Harpoon
+harpoon-harpoon-setup-is-required	harpoon.md	/### harpoon:setup() IS REQUIRED
+harpoon-highlight-groups	harpoon.md	/### Highlight Groups
+harpoon-installation	harpoon.md	/## ⇁ Installation
+harpoon-logger	harpoon.md	/### Logger
+harpoon-note-to-legacy-harpoon-1-users	harpoon.md	/## ⇁ Note to legacy Harpoon 1 users
+harpoon-quick-note	harpoon.md	/### Quick Note
+harpoon-settings	harpoon.md	/### Settings
+harpoon-social	harpoon.md	/## ⇁ Social
+harpoon-telescope	harpoon.md	/### Telescope
+harpoon-the-problems	harpoon.md	/## ⇁ The Problems
+harpoon-the-solutions	harpoon.md	/## ⇁ The Solutions
+harpoon-toc	harpoon.md	/## ⇁ TOC
+neotest-plenary-minimal-init-lua	neotest-plenary.md	/## Minimal `init.lua`
+neotest-plenary-neotest-plenary	neotest-plenary.md	/# neotest-plenary
+neotest-vitest-bug-reports	neotest-vitest.md	/## Bug Reports
+neotest-vitest-configuration	neotest-vitest.md	/## Configuration
+neotest-vitest-filter-directories	neotest-vitest.md	/### Filter directories
+neotest-vitest-gift-contributing	neotest-vitest.md	/## :gift: Contributing
+neotest-vitest-how-to-install-it	neotest-vitest.md	/## How to install it
+neotest-vitest-known-issues	neotest-vitest.md	/## Known issues
+neotest-vitest-lazy-nvim	neotest-vitest.md	/### Lazy.nvim
+neotest-vitest-lazyvim	neotest-vitest.md	/### LazyVim
+neotest-vitest-neotest-vitest	neotest-vitest.md	/# neotest-vitest
+neotest-vitest-packer	neotest-vitest.md	/### Packer
+neotest-vitest-stricter-file-parsing-to-determine-test-files	neotest-vitest.md	/### Stricter file parsing to determine test files
+neotest-vitest-usage	neotest-vitest.md	/## Usage
+neotest-vitest-watch-mode-mappings	neotest-vitest.md	/### Watch mode mappings
+vim-be-good-contribute	vim-be-good.md	/## Contribute
+vim-be-good-difficulty	vim-be-good.md	/## Difficulty
+vim-be-good-docker	vim-be-good.md	/### Docker
+vim-be-good-future-games	vim-be-good.md	/## Future Games
+vim-be-good-games-relative	vim-be-good.md	/### Games - relative
+vim-be-good-ideas	vim-be-good.md	/## Ideas?
+vim-be-good-installation	vim-be-good.md	/## Installation
+vim-be-good-instructions-are-at-the-top-of-games	vim-be-good.md	/## Instructions are at the top of games.
+vim-be-good-issues	vim-be-good.md	/## Issues
+vim-be-good-latest-image	vim-be-good.md	/#### "Latest" image
+vim-be-good-live-on-stream	vim-be-good.md	/## Live on Stream
+vim-be-good-must-use-neovim-5-x	vim-be-good.md	/## MUST USE NEOVIM 5.x!!!!!!
+vim-be-good-options	vim-be-good.md	/## Options
+vim-be-good-playing-the-games	vim-be-good.md	/## Playing the games.
+vim-be-good-programmed-with-love-and-fury	vim-be-good.md	/## Programmed with Love and Fury
+vim-be-good-stable-image	vim-be-good.md	/#### Stable image
+vim-be-good-vim-be-good	vim-be-good.md	/# vim-be-good
+vim-be-good-warning	vim-be-good.md	/## WARNING

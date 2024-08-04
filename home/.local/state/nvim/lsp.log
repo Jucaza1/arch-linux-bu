@@ -1,0 +1,2 @@
+[START][2024-08-03 22:26:12] LSP logging initiated
+[WARN][2024-08-03 22:26:12] .../lua/vim/lsp.lua:633	"buf_attach_client called on unloaded buffer (id: 9): "

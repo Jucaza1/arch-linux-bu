@@ -1,0 +1,22 @@
+# Static information about the filesystems.
+# See fstab(5) for details.
+
+# <file system> <dir> <type> <options> <dump> <pass>
+# /dev/sda2
+UUID=4886fceb-59a4-4c3a-a699-8cd832caddfb	/         	btrfs     	rw,relatime,compress=zstd:3,space_cache=v2,subvolid=256,subvol=/@	0 0
+
+# /dev/sda2
+UUID=4886fceb-59a4-4c3a-a699-8cd832caddfb	/home     	btrfs     	rw,relatime,compress=zstd:3,space_cache=v2,subvolid=257,subvol=/@home	0 0
+
+# /dev/sda2
+UUID=4886fceb-59a4-4c3a-a699-8cd832caddfb	/var/log  	btrfs     	rw,relatime,compress=zstd:3,space_cache=v2,subvolid=258,subvol=/@log	0 0
+
+# /dev/sda2
+UUID=4886fceb-59a4-4c3a-a699-8cd832caddfb	/var/cache/pacman/pkg	btrfs     	rw,relatime,compress=zstd:3,space_cache=v2,subvolid=259,subvol=/@pkg	0 0
+
+# /dev/sda2
+UUID=4886fceb-59a4-4c3a-a699-8cd832caddfb	/.snapshots	btrfs     	rw,relatime,compress=zstd:3,space_cache=v2,subvolid=260,subvol=/@.snapshots	0 0
+
+# /dev/sda1
+UUID=3BC2-BF49      	/boot     	vfat      	rw,relatime,fmask=0022,dmask=0022,codepage=437,iocharset=ascii,shortname=mixed,utf8,errors=remount-ro	0 2
+

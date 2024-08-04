@@ -1,0 +1,47 @@
+{
+   "checksum": "5393274336d11163bc89481a6a34d15a",
+   "roots": {
+      "bookmark_bar": {
+         "children": [  ],
+         "date_added": "13365880003001857",
+         "date_last_used": "0",
+         "date_modified": "0",
+         "guid": "0bc5d13f-2cba-5d74-951f-3f233fe6c908",
+         "id": "1",
+         "name": "Bookmarks bar",
+         "type": "folder"
+      },
+      "other": {
+         "children": [ {
+            "date_added": "13365882146658290",
+            "date_last_used": "0",
+            "guid": "e203181c-5187-4b29-8da6-c810940636d6",
+            "id": "5",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "GitHub - mathiasbynens/dotfiles: :wrench: .files, including ~/.macos — sensible hacker defaults for macOS",
+            "type": "url",
+            "url": "https://github.com/mathiasbynens/dotfiles"
+         } ],
+         "date_added": "13365880003001859",
+         "date_last_used": "0",
+         "date_modified": "13365882146658290",
+         "guid": "82b081ec-3dd3-529c-8475-ab6c344590dd",
+         "id": "2",
+         "name": "Other bookmarks",
+         "type": "folder"
+      },
+      "synced": {
+         "children": [  ],
+         "date_added": "13365880003001860",
+         "date_last_used": "0",
+         "date_modified": "0",
+         "guid": "4cf2e351-0e85-532b-bb37-df045d8f8d0f",
+         "id": "3",
+         "name": "Mobile bookmarks",
+         "type": "folder"
+      }
+   },
+   "version": 1
+}

@@ -1,0 +1,6 @@
+2024/08/01-20:27:15.232 419 Creating DB /home/user-j/.config/chromium/Default/WebStorage/6/IndexedDB/indexeddb.leveldb since it was missing.
+2024/08/01-20:27:15.254 419 Delete type=3 #1
+2024/08/01-20:27:17.449 41a Level-0 table #5: started
+2024/08/01-20:27:17.453 41a Level-0 table #5: 480 bytes OK
+2024/08/01-20:27:17.460 41a Delete type=0 #3
+2024/08/01-20:27:17.460 41a Manual compaction at level-0 from (begin) .. (end); will stop at (end)

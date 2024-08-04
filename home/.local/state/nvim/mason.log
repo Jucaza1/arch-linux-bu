@@ -1,0 +1,28 @@
+[INFO  Fri 02 Aug 2024 10:09:24 AM CEST] ...e/nvim/lazy/mason.nvim/lua/mason-core/installer/init.lua:184: Executing installer for Package(name=lua-language-server) {}
+[INFO  Fri 02 Aug 2024 10:09:30 AM CEST] ...e/nvim/lazy/mason.nvim/lua/mason-core/installer/init.lua:184: Executing installer for Package(name=rust-analyzer) {}
+[INFO  Fri 02 Aug 2024 10:09:35 AM CEST] ...e/nvim/lazy/mason.nvim/lua/mason-core/installer/init.lua:184: Executing installer for Package(name=gopls) {}
+[INFO  Fri 02 Aug 2024 10:09:37 AM CEST] ...e/nvim/lazy/mason.nvim/lua/mason-core/installer/init.lua:245: Installation succeeded for Package(name=rust-analyzer)
+[INFO  Fri 02 Aug 2024 10:09:38 AM CEST] ...e/nvim/lazy/mason.nvim/lua/mason-core/installer/init.lua:245: Installation succeeded for Package(name=lua-language-server)
+[INFO  Fri 02 Aug 2024 10:11:29 AM CEST] ...e/nvim/lazy/mason.nvim/lua/mason-core/installer/init.lua:245: Installation succeeded for Package(name=gopls)
+[INFO  Sat 03 Aug 2024 09:51:19 PM CEST] ...e/nvim/lazy/mason.nvim/lua/mason-core/installer/init.lua:184: Executing installer for Package(name=lua-language-server) Package(name=lua-language-server)
+[INFO  Sat 03 Aug 2024 09:51:21 PM CEST] ...e/nvim/lazy/mason.nvim/lua/mason-core/installer/init.lua:245: Installation succeeded for Package(name=lua-language-server)
+[INFO  Sat 03 Aug 2024 09:56:17 PM CEST] ...e/nvim/lazy/mason.nvim/lua/mason-core/installer/init.lua:184: Executing installer for Package(name=eslint-lsp) {}
+[ERROR Sat 03 Aug 2024 09:56:17 PM CEST] ...e/nvim/lazy/mason.nvim/lua/mason-core/installer/init.lua:249: Installation failed for Package(name=eslint-lsp) error=spawn: npm failed with exit code - and signal -. npm is not executable
+[INFO  Sat 03 Aug 2024 09:59:17 PM CEST] ...e/nvim/lazy/mason.nvim/lua/mason-core/installer/init.lua:184: Executing installer for Package(name=prettier) {}
+[ERROR Sat 03 Aug 2024 09:59:17 PM CEST] ...e/nvim/lazy/mason.nvim/lua/mason-core/installer/init.lua:249: Installation failed for Package(name=prettier) error=spawn: npm failed with exit code - and signal -. npm is not executable
+[INFO  Sat 03 Aug 2024 10:00:28 PM CEST] ...e/nvim/lazy/mason.nvim/lua/mason-core/installer/init.lua:184: Executing installer for Package(name=prettier) {}
+[ERROR Sat 03 Aug 2024 10:00:28 PM CEST] ...e/nvim/lazy/mason.nvim/lua/mason-core/installer/init.lua:249: Installation failed for Package(name=prettier) error=spawn: npm failed with exit code - and signal -. npm is not executable
+[INFO  Sat 03 Aug 2024 10:02:22 PM CEST] ...e/nvim/lazy/mason.nvim/lua/mason-core/installer/init.lua:184: Executing installer for Package(name=prettier) {}
+[ERROR Sat 03 Aug 2024 10:02:22 PM CEST] ...e/nvim/lazy/mason.nvim/lua/mason-core/installer/init.lua:249: Installation failed for Package(name=prettier) error=spawn: npm failed with exit code - and signal -. npm is not executable
+[INFO  Sat 03 Aug 2024 10:02:22 PM CEST] ...e/nvim/lazy/mason.nvim/lua/mason-core/installer/init.lua:184: Executing installer for Package(name=prettier) {}
+[ERROR Sat 03 Aug 2024 10:02:22 PM CEST] ...e/nvim/lazy/mason.nvim/lua/mason-core/installer/init.lua:249: Installation failed for Package(name=prettier) error=spawn: npm failed with exit code - and signal -. npm is not executable
+[INFO  Sat 03 Aug 2024 10:02:24 PM CEST] ...e/nvim/lazy/mason.nvim/lua/mason-core/installer/init.lua:184: Executing installer for Package(name=eslint-lsp) {}
+[ERROR Sat 03 Aug 2024 10:02:24 PM CEST] ...e/nvim/lazy/mason.nvim/lua/mason-core/installer/init.lua:249: Installation failed for Package(name=eslint-lsp) error=spawn: npm failed with exit code - and signal -. npm is not executable
+[INFO  Sat 03 Aug 2024 10:07:35 PM CEST] ...e/nvim/lazy/mason.nvim/lua/mason-core/installer/init.lua:184: Executing installer for Package(name=eslint-lsp) {}
+[ERROR Sat 03 Aug 2024 10:07:35 PM CEST] ...e/nvim/lazy/mason.nvim/lua/mason-core/installer/init.lua:249: Installation failed for Package(name=eslint-lsp) error=spawn: npm failed with exit code - and signal -. npm is not executable
+[INFO  Sat 03 Aug 2024 10:07:42 PM CEST] ...e/nvim/lazy/mason.nvim/lua/mason-core/installer/init.lua:184: Executing installer for Package(name=eslint-lsp) {}
+[ERROR Sat 03 Aug 2024 10:07:42 PM CEST] ...e/nvim/lazy/mason.nvim/lua/mason-core/installer/init.lua:249: Installation failed for Package(name=eslint-lsp) error=spawn: npm failed with exit code - and signal -. npm is not executable
+[INFO  Sat 03 Aug 2024 10:07:43 PM CEST] ...e/nvim/lazy/mason.nvim/lua/mason-core/installer/init.lua:184: Executing installer for Package(name=eslint-lsp) {}
+[ERROR Sat 03 Aug 2024 10:07:43 PM CEST] ...e/nvim/lazy/mason.nvim/lua/mason-core/installer/init.lua:249: Installation failed for Package(name=eslint-lsp) error=spawn: npm failed with exit code - and signal -. npm is not executable
+[INFO  Sat 03 Aug 2024 10:07:50 PM CEST] ...e/nvim/lazy/mason.nvim/lua/mason-core/installer/init.lua:184: Executing installer for Package(name=prettier) {}
+[ERROR Sat 03 Aug 2024 10:07:50 PM CEST] ...e/nvim/lazy/mason.nvim/lua/mason-core/installer/init.lua:249: Installation failed for Package(name=prettier) error=spawn: npm failed with exit code - and signal -. npm is not executable
